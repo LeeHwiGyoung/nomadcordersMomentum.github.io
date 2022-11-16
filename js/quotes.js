@@ -41,3 +41,16 @@ const quotes = [
     }
 
 ]
+
+const quote = document.querySelector("#quote span:first-child")
+const author = document.querySelector("#quote span:last-child")    
+
+function setQuote() {
+    const idx = Math.floor(Math.random() * quotes.length)
+    quote.innerText =  `${quotes[idx].quote} \n`  
+    author.innerText = `${quotes[idx].author}`
+}
+
+setQuote();
+
+//Math.random = 0 0.99까지 생성
