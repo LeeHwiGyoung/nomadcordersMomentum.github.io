@@ -5,6 +5,12 @@
 - Quote : Math.random을 이용하여 배열에 인덱스로 접근 => 랜덤하게 quote 띄우기 
 - Background : js에서 createElement로 html element를 만들어보기 
 - Weather : 
+
+<img width="1440" alt="before" src="https://user-images.githubusercontent.com/77186025/202360753-2d830f0b-bc59-4a66-99df-00f5022d6073.png">
+
+<img width="1440" alt="before" src="https://user-images.githubusercontent.com/77186025/202360861-b0e71953-7572-409f-a731-aa1b42d2f988.png">
+
+
 # 혼자서 추가한 내용
 - Logout : 
 - Login : 
