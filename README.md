@@ -8,9 +8,5 @@
 
 <img width="1440" alt="before" src="https://user-images.githubusercontent.com/77186025/202360753-2d830f0b-bc59-4a66-99df-00f5022d6073.png">
 
-<img width="1440" alt="before" src="https://user-images.githubusercontent.com/77186025/202360861-b0e71953-7572-409f-a731-aa1b42d2f988.png">
 
-
-# 혼자서 추가한 내용
-- Logout : 
-- Login : 
+css 변경 후
