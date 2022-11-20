@@ -47,8 +47,8 @@ const author = document.querySelector("#quote span:last-child")
 
 function setQuote() {
     const idx = Math.floor(Math.random() * quotes.length)
-    quote.innerText =  `${quotes[idx].quote} \n`  
-    author.innerText = `${quotes[idx].author}`
+    quote.innerText =  `${quotes[idx].quote}`  
+    author.innerText = ` - ${quotes[idx].author} - `
 }
 
 setQuote();
