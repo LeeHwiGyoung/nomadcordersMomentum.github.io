@@ -29,22 +29,15 @@ function onLoginSubmit(event){
     paintGreeting(username);
 }
 
-function click_autologin(event){
-    autologin.toggleAttribute("checked")
-    console.dir(autologin);
-}
-
 if(savedUserName === null){
     loginForm.classList.remove(HIDDEN_CLASSNAME);
     tododiv.classList.add(HIDDEN_CLASSNAME);
     loginForm.addEventListener("submit", onLoginSubmit);
-    loginForm.addEventListener("change", click_autologin)
 }else{
     paintGreeting(savedUserName);
 }
 
 function selectGreetingMessage(cur_hour,username){
-    console.log(cur_hour)
     if((0 <= cur_hour && cur_hour < 6) || (21 <= cur_hour && cur_hour <= 23))
         greeting.innerText = `Good night ${username}!`
     else if(6 <= cur_hour && cur_hour < 12)

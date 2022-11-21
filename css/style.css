@@ -6,11 +6,17 @@ body {
 .hidden {
     display : none;
 }
+
 #header {
     height : 10vh;
     display: flex;
     height: 10vh;
     flex-direction: row-reverse;
+}
+#weather{
+    color : white;
+    text-align: center;
+    font-size: 15px;
 }
 #section {
     display : flex;
